@@ -61,3 +61,9 @@ function preenche(lista){
     
 
 }
+
+function gerarDashboard(){
+    var idAgente = document.getElementById("slcAgente").value;
+    console.log("Agente selecionado = "+idAgente);
+    window.location = "dashboard.html?id="+idAgente;
+}
